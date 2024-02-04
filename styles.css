@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Aclonica&family=DM+Sans:opsz@9..40&family=Gothic+A1&family=Inter&family=Montserrat&family=Plus+Jakarta+Sans&family=Poppins&family=Preahvihear&family=Roboto&family=Rubik&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hero{
+    display: flex;
+}
+.hleft{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background: #000;;
+}
+.hleft>h1{
+    color: #575A85;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hleft p{
+    color: #B8BCCC;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hright{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    width: 50%;
+    background: #575A85;
+}
+.hright h3 ,i {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hright button{
+    border: none;
+
+    border-radius: 10px;
+border: 2px solid #B8BCCC;
+    background: #575A85;
+
+    width: 345px;
+    height: 67px;
+    flex-shrink: 0;
+    color: #B8BCCC;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hright button:hover{
+    cursor:pointer;
+    border: none !important;
+    background-color: #000;
+    color: white !important;
+    transform: scale(1.1);
+
+    transition: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+.hero1{
+    padding: 30px;
+    display: flex;
+    background-color: black;
+    height:30vh;
+    gap: 40px;
+    flex-direction: column;
+}
+.hero1u{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(184, 188, 204, 0.50);
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 10%;
+}
+.hero1u b{
+    color: #B8BCCC;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.hero1d{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+}
+.hero1d div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero1d h1{
+    color: rgba(184, 188, 204, 0.50);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.heroCurrLoc{
+    background-color: #575A85;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    gap: 40px;
+    height: 70vh;
+}
+
+
+.heroCurrLoc h1{
+    color: #B8BCCC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+}
+
+.respOnse{
+    display: none;
+}
+.moreInfo{
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.moreInfo h1{
+    width: 100%;
+    display: flex;
+    color: #B8BCCC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    
+}
+
+.moreInfo h1, h3{
+    color: white;
+}
+
+.moreInfo h3{
+    color: rgba(184, 188, 204, 0.50);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    
+
+}
+
+
+
+.hero4{
+    display: flex;
+    flex-direction:column ;
+    padding: 30px;
+    height: 100%;
+    gap: 30px;
+    background-color: black;
+}
+.hero4 h1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: #B8BCCC;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.hero4 input{
+    border-radius: 10px;
+    border: 3px solid #575A85;
+    padding: 20px;
+    background-color: #000;
+    color: aqua;
+    font-size: larger;
+    color: #B8BCCC;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.H4container{
+    display: flex;
+    width: 100%;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    width:40%;
+    height: 399px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #575A85;
+
+}
+.card h4{
+    color: #B8BCCC;
+    font-family: Montserrat;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero1 b{
+    font-weight: 400;
+    color:#B8BCCC;
+}
+.moreInfo b{
+    font-weight: 400;
+    color:#B8BCCC;
+}
+#errorPage{
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+#errorBar{
+
+    font-size: larger;
+}
+
+
+.card b{
+    font-weight: 300;
+}
+#myIp{
+    font-size: 2rem;
+}
+#getInfoBtn{
+    color: #FFF;
+}
+.moreHero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:700px) {
+    .hero{
+        flex-direction: column !important;
+       
+        background-color: red !important;
+    }
+    .hleft{
+        height: 50% !important;
+        width: 100% !important;
+
+    }
+    .hright{
+        height: 50% !important;
+        width: 100% !important;
+    }
+}

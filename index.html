@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="errorPage">
+        <div id="errorBar">hello</div>
+      
+    </div>
+    
+    <div class="hero" id="hero">
+        <div class="hleft"> 
+            <h1>Post Office Application.</h1>
+            <p>This Application Allows you to extract information about the nearest Post Offices, based on your location.</p>
+            <img src="undraw_messenger_re_8bky 1.png" alt="">
+            </div>
+       
+        
+        <div class="hright">
+        <h3>Your current IP Address is : <i id="gfg"></i></h3>
+        <button id="getInfoBtn">Get Started</button>
+        </div>
+    </div>
+
+   
+
+    <div class="respOnse">
+    <div class="hero1">
+        <div class="hero1u">
+            IP Address is  <b id="myIp"></b>
+        </div>
+        <div class="hero1d">
+            <div>
+                <h1>Lat: <b id="myLat"></b></h1>
+                <h1>Long: <b id="myLong"></b></h1>
+                
+            </div>
+            <div>
+                <h1>City: <b id="myCity"></b></h1>
+                <h1>Region: <b id="myRegion"></b></h1>
+                
+            </div>
+            <div>
+                <h1>Organisation: <b id="myOrganisation"></b></h1>
+                <h1>Hostname: <b id="myHostName"></b></h1>
+                
+            </div>
+
+        </div>
+    </div>
+   
+        <div class="heroCurrLoc">
+        <h1>Your Current Location</h1>
+        <iframe id="googleMapsIframe" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
+            </div>
+       
+       
+       
+    <div class="moreInfo">
+            <h1>More information about you</h1>
+            <div class="moreHero">
+                <h3>TimeZone: <b id="myTimeZone"></b></h3>
+                <h3>Date and Time: <b id="myDatendTime"></b></h3>
+                <h3>Pincode: <b id="myPincode"></b></h3>
+                <h3>Message: <b id="myMessage"></b></h3>
+            </div>
+       </div>
+
+<div class="hero4">
+    <h1>Post Office near you</h1>
+    <input type="text" placeholder="Search By name" id="searchBox">
+    <div class="H4container" id="H4container">
+       
+    </div>
+    
+
+
+</div>
+
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
